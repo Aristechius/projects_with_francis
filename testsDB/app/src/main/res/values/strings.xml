@@ -1,0 +1,53 @@
+<resources>
+    <!-- default strings-->
+    <string name="app_name">testsDB</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_posts">posts</string>
+
+    <!--top bar strings and content descriptions for images are placed here -->
+    <string name="topBarLogo">followWordLogo</string>
+    <string name="postsPageTitle">Buni Hub</string>
+    <string name="placesPageTitle">Places</string>
+
+    <!--places and associated strings go here-->
+    <string name="placesName1">BUNI HUB</string>
+    <string name="placesName2">Bonag</string>
+    <string name="placesName3">St.Joseph</string>
+
+
+    <!--posts and associated strings go here-->
+    <string name="postTitle1">Welcome</string>
+    <string name="postDetails1">Hi. Thank you for following Buni. We will be ..
+    </string>
+    <string name="postDate1">10-4-2015 17:33:08</string>
+
+    <string name="postTitle2">Negawatt Challenge</string>
+    <string name="postDetails2">Hi. There is going to be a challenge which ..
+    </string>
+    <string name="postDate2">11-4-2015 12:22:21</string>
+
+    <string name="postTitle3">Digital Marketing Workshop Training </string>
+    <string name="postDetails3">Want to know how to advertise your products or services? ..
+    </string>
+    <string name="postDate3">12-4-2015 22:30:25</string>
+
+    <string name="postTitle4">Negawatt Challenge Phase II</string>
+    <string name="postDetails4">Phase II of the Negawatt challenge begins this ..
+    </string>
+    <string name="postDate4">14-4-2015 08:00:05</string>
+
+    <string name="postTitle5">Digital Marketing Workshop Training II</string>
+    <string name="postDetails5"> Marketing Guru S. P. continues this wednesday date ..
+    </string>
+    <string name="postDate5">14-4-2015 10:30:25</string>
+
+    <!--footer buttons and associated strings here-->
+    <string name="btnFollowText">FOLLOW</string>
+    <string name="title_activity_my_places">myPlaces</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_folow">FolowActivity</string>
+
+
+
+</resources>

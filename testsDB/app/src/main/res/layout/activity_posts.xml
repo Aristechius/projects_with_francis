@@ -1,0 +1,283 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="buni_hub.follow.testsdb.posts"
+    android:padding="0dp"
+    android:background="@drawable/back_texture">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="56dp"
+        android:id="@+id/topBar"
+        android:background="#ff3fa2ff"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <ImageView
+            android:layout_width="122dp"
+            android:layout_height="match_parent"
+            android:id="@+id/imgfollowLogo"
+            android:layout_marginLeft="8dp"
+            android:layout_marginBottom="2dp"
+            android:layout_marginTop="2dp"
+            android:src="@drawable/follow"
+            android:clickable="false"
+            android:contentDescription="@string/topBarLogo" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/postsPageTitle"
+            android:id="@+id/textView"
+            android:layout_marginTop="10dp"
+            android:padding="0dp"
+            android:textColor="#ffffff" />
+    </LinearLayout>
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/topBar"
+        android:layout_alignLeft="@+id/topBar"
+        android:layout_alignStart="@+id/topBar">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/postsBody"
+            android:paddingRight="16dp"
+            android:paddingLeft="8dp"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:paddingEnd="16dp"
+            android:paddingStart="8dp">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/post5"
+                android:padding="8dp"
+                android:background="@drawable/rounded_border"
+                android:layout_marginBottom="8dp"
+                android:clickable="true">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="@string/postTitle5"
+                    android:id="@+id/txtPostTitle5"
+                    android:inputType="none"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginBottom="4dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="@string/postDetails5"
+                    android:id="@+id/txtPostDetails5"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginBottom="4dp"
+                    android:inputType="none" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:id="@+id/txtPostDate5"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginBottom="4dp"
+                    android:inputType="none"
+                    android:text="@string/postDate5"
+                    android:layout_gravity="end" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/post4"
+                android:padding="8dp"
+                android:background="@drawable/rounded_border"
+                android:layout_marginBottom="8dp"
+                android:clickable="true">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="@string/postTitle4"
+                    android:id="@+id/txtPostTitle4"
+                    android:inputType="none"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginBottom="4dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="@string/postDetails4"
+                    android:id="@+id/txtPostDetails4"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginBottom="4dp"
+                    android:inputType="none" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:id="@+id/txtPostDate4"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginBottom="4dp"
+                    android:inputType="none"
+                    android:text="@string/postDate4"
+                    android:layout_gravity="end" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/post3"
+                android:padding="8dp"
+                android:background="@drawable/rounded_border"
+                android:layout_marginBottom="8dp"
+                android:clickable="true">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="@string/postTitle3"
+                    android:id="@+id/txtPostTitle3"
+                    android:inputType="none"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginBottom="4dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="@string/postDetails3"
+                    android:id="@+id/txtPostDetails3"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginBottom="4dp"
+                    android:inputType="none" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:id="@+id/txtPostDate3"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginBottom="4dp"
+                    android:inputType="none"
+                    android:text="@string/postDate3"
+                    android:layout_gravity="end" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/post2"
+                android:padding="8dp"
+                android:background="@drawable/rounded_border"
+                android:layout_marginBottom="8dp"
+                android:clickable="true">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="@string/postTitle2"
+                    android:id="@+id/txtPostTitle2"
+                    android:inputType="none"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginBottom="4dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="@string/postDetails2"
+                    android:id="@+id/txtPostDetails2"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginBottom="4dp"
+                    android:inputType="none" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:id="@+id/txtPostDate2"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginBottom="4dp"
+                    android:inputType="none"
+                    android:text="@string/postDate2"
+                    android:layout_gravity="end" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/post1"
+                android:padding="8dp"
+                android:background="@drawable/rounded_border"
+                android:layout_marginBottom="8dp"
+                android:clickable="true">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="@string/postTitle1"
+                    android:id="@+id/txtPostTitle1"
+                    android:inputType="none"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginBottom="4dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="@string/postDetails1"
+                    android:id="@+id/txtPostDetails1"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginBottom="4dp"
+                    android:inputType="none" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:id="@+id/txtPostDate1"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginBottom="4dp"
+                    android:inputType="none"
+                    android:text="@string/postDate1"
+                    android:layout_gravity="end" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
