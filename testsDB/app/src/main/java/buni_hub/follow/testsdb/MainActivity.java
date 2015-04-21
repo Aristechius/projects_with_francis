@@ -12,40 +12,6 @@ import android.widget.ImageButton;
 public class MainActivity extends ActionBarActivity implements View.OnClickListener {
 
 
-    //---create an on click event for each checkbox, storing the ids in array
-    public void onClick(View v) {
-        switch (v.getId()) {
-            case R.id.checkPlace1: {
-                if ( v.getBackground()==getResources().getDrawable(R.drawable.unchecked)) {
-                    v.setBackgroundResource(R.drawable.checked);
-                } else {
-                    v.setBackgroundResource(R.drawable.unchecked);
-                }
-                break;
-            }
-            case R.id.checkPlace2: {
-                if ( v.getBackground()==getResources().getDrawable(R.drawable.unchecked)) {
-                    v.setBackgroundResource(R.drawable.checked);
-                } else {
-                    v.setBackgroundResource(R.drawable.unchecked);
-                }
-                break;
-            }
-
-            case R.id.checkPlace3: {
-                if ( v.getBackground()==getResources().getDrawable(R.drawable.unchecked)) {
-                    v.setBackgroundResource(R.drawable.checked);
-                } else {
-                    v.setBackgroundResource(R.drawable.unchecked);
-                }
-                break;
-            }
-            default:
-                break;
-        }
-    }
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -61,16 +27,44 @@ public class MainActivity extends ActionBarActivity implements View.OnClickListe
         ImageButton checkBox2 = (ImageButton) findViewById(R.id.checkPlace2);
         ImageButton checkBox3 = (ImageButton) findViewById(R.id.checkPlace3);
 
-        checkBox1.setOnClickListener(this);
-        checkBox2.setOnClickListener(this);
-        checkBox3.setOnClickListener(this);
         //---create an array to store ids
 
+        //---create an on click event for each checkbox, storing the ids in array
 
         //---create an onclick event for follow button sending the ids to the next activity
-
     }
 
+    public void onClick(View v) {
+        switch (v.getId()) {
+            case R.id.checkPlace1: {
+                if (v.getBackground() == getResources().getDrawable(R.drawable.unchecked)) {
+                    v.setBackgroundResource(R.drawable.checked);
+                } else {
+                    v.setBackgroundResource(R.drawable.unchecked);
+                }
+                break;
+            }
+            case R.id.checkPlace2: {
+                if (v.getBackground() == getResources().getDrawable(R.drawable.unchecked)) {
+                    v.setBackgroundResource(R.drawable.checked);
+                } else {
+                    v.setBackgroundResource(R.drawable.unchecked);
+                }
+                break;
+            }
+
+            case R.id.checkPlace3: {
+                if (v.getBackground() == getResources().getDrawable(R.drawable.unchecked)) {
+                    v.setBackgroundResource(R.drawable.checked);
+                } else {
+                    v.setBackgroundResource(R.drawable.unchecked);
+                }
+                break;
+            }
+            default:
+                break;
+        }
+    }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
